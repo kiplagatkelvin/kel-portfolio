@@ -26,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "kelvin kiplagat",
-  title: "Cyber Security Analyst | Threat intelligence analyst | Information Security | IT Risk & Governance | IT Service management | Incident management",
+  title: "Cyber Security Analyst | Threat intelligence analyst | Information Security | IT Risk & Governance | Incident management",
   email: "kiplagatkelvin034@gmail.com",
   gitHub: "kiplagatkelvin",
   linkedIn: "kelvin-kiplagat-a47388216/",
