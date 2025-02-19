@@ -24,19 +24,27 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "To secure the digital world by identifying and mitigating cyber threats, educating future cybersecurity professionals, and empowering organizations with robust security strategies. My goal is to drive cybersecurity awareness, innovation, and resilience in an ever-evolving threat landscape.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "VAPT: Kali Linux, Metasploit, Burp Suite, Nmap",
+ "Incident Response: Root cause analysis, threat containment, Splunk, EnCase",
+ "Threat Intelligence & OSINT: Maltego, Shodan, OSINT frameworks",
+ "Security Audits: Nessus, Qualys, CIS Benchmarks",
+ "Cybersecurity Training: Delivered programs (banking sector), KnowBe4",
+ "Cloud Security: AWS, Google Cloud, Terraform, ISO 27001, GDPR",
+ "Programming & Scripting: Python, Bash, PowerShell",
+ "Leadership & Project Management: Jira, Confluence, Asana",
+ "SIEM: Splunk, IBM QRadar, LogRhythm",
+ "Encryption: OpenSSL, GPG, PGP",
+ "Forensics: FTK Imager, X1 Search, Autopsy",
+ "Red Teaming: Cobalt Strike, BloodHound, Empire",
+ "Threat Hunting: ELK Stack, AIL (Analytical Intelligence Layer)",
+ "Network Security: Firewalls (pfSense, Cisco), Wireshark, Snort",
 ];
 
 /**
@@ -45,7 +53,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Cybersecurity & Forensics Specialist focused on ethical hacking, threat intelligence, and digital forensics. I contribute to GitHub, share insights on Medium, and mentor future security experts to stay ahead of evolving threats.";
 
 const About = () => {
   return (
@@ -61,8 +69,7 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
-        <hr />
+        <p className="large">{description}</p>        <hr />
         <ul
           style={{
             textAlign: "left",

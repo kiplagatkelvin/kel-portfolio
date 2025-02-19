@@ -1,3 +1,4 @@
+
 /**
  * Application component
  *
@@ -24,15 +25,12 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "kelvin kiplagat",
+  title: "Cyber Security Analyst | Threat intelligence analyst | Information Security | IT Risk & Governance | IT Service management | Incident management",
+  email: "kiplagatkelvin034@gmail.com",
+  gitHub: "kiplagatkelvin",
+  linkedIn: "kelvin-kiplagat-a47388216/",
+  medium: "@kiplagatkelvin034"
 };
 
 const primaryColor = "#4E567E";
@@ -51,3 +49,4 @@ const App = () => {
 };
 
 export default App;
+
