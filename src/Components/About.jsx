@@ -6,52 +6,31 @@
 
 import React from "react";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
+import React from "react";
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
 const description =
-  "To secure the digital world by identifying and mitigating cyber threats, educating future cybersecurity professionals, and empowering organizations with robust security strategies. My goal is to drive cybersecurity awareness, innovation, and resilience in an ever-evolving threat landscape.";
+  "To secure the digital world by identifying and mitigating cyber threats, educating future cybersecurity professionals, and empowering organizations with robust security strategies. My goal is to drive cybersecurity awareness, innovation, and resilience.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
   "VAPT: Kali Linux, Metasploit, Burp Suite, Nmap",
- "Incident Response: Root cause analysis, threat containment, Splunk, EnCase",
- "Threat Intelligence & OSINT: Maltego, Shodan, OSINT frameworks",
- "Security Audits: Nessus, Qualys, CIS Benchmarks",
- "Cybersecurity Training: Delivered programs (banking sector), KnowBe4",
- "Cloud Security: AWS, Google Cloud, Terraform, ISO 27001, GDPR",
- "Programming & Scripting: Python, Bash, PowerShell",
- "Leadership & Project Management: Jira, Confluence, Asana",
- "SIEM: Splunk, IBM QRadar, LogRhythm",
- "Encryption: OpenSSL, GPG, PGP",
- "Forensics: FTK Imager, X1 Search, Autopsy",
- "Red Teaming: Cobalt Strike, BloodHound, Empire",
- "Threat Hunting: ELK Stack, AIL (Analytical Intelligence Layer)",
- "Network Security: Firewalls (pfSense, Cisco), Wireshark, Snort",
+  "Incident Response: Root cause analysis, threat containment, Splunk, EnCase",
+  "Threat Intelligence & OSINT: Maltego, Shodan, OSINT frameworks",
+  "Security Audits: Nessus, Qualys, CIS Benchmarks",
+  "Cybersecurity Training: Delivered programs (banking sector), KnowBe4",
+  "Cloud Security: AWS, Google Cloud, Terraform, ISO 27001, GDPR",
+  "Programming & Scripting: Python, Bash, PowerShell",
+  "Leadership & Project Management: Jira, Confluence, Asana",
+  "SIEM: Splunk, IBM QRadar, LogRhythm",
+  "Encryption: OpenSSL, GPG, PGP",
+  "Forensics: FTK Imager, X1 Search, Autopsy",
+  "Red Teaming: Cobalt Strike, BloodHound, Empire",
+  "Threat Hunting: ELK Stack, AIL (Analytical Intelligence Layer)",
+  "Network Security: Firewalls (pfSense, Cisco), Wireshark, Snort",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
 const detailOrQuote =
   "Cybersecurity & Forensics Specialist focused on ethical hacking, threat intelligence, and digital forensics. I contribute to GitHub, share insights on Medium, and mentor future security experts to stay ahead of evolving threats.";
 
@@ -69,14 +48,18 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>        <hr />
+        <p className="large">{description}</p>
+        <hr />
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            margin: "2rem auto",
+            padding: "0",
+            listStyleType: "none",
+            gap: "1rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -91,3 +74,5 @@ const About = () => {
 };
 
 export default About;
+
+ 
