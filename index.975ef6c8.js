@@ -27188,25 +27188,11 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  * Space for you to describe more about yourself.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
+var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
 const imageAltText = "purple and blue abstract background";
-/**
- * Sort description that expands on your title on the Home component.
- */ const description = "To secure the digital world by identifying and mitigating cyber threats, educating future cybersecurity professionals, and empowering organizations with robust security strategies. My goal is to drive cybersecurity awareness, innovation, and resilience in an ever-evolving threat landscape.";
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */ const skillsList = [
+const description = "To secure the digital world by identifying and mitigating cyber threats, educating future cybersecurity professionals, and empowering organizations with robust security strategies. My goal is to drive cybersecurity awareness, innovation, and resilience.";
+const skillsList = [
     "VAPT: Kali Linux, Metasploit, Burp Suite, Nmap",
     "Incident Response: Root cause analysis, threat containment, Splunk, EnCase",
     "Threat Intelligence & OSINT: Maltego, Shodan, OSINT frameworks",
@@ -27222,11 +27208,7 @@ const imageAltText = "purple and blue abstract background";
     "Threat Hunting: ELK Stack, AIL (Analytical Intelligence Layer)",
     "Network Security: Firewalls (pfSense, Cisco), Wireshark, Snort", 
 ];
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */ const detailOrQuote = "Cybersecurity & Forensics Specialist focused on ethical hacking, threat intelligence, and digital forensics. I contribute to GitHub, share insights on Medium, and mentor future security experts to stay ahead of evolving threats.";
+const detailOrQuote = "Cybersecurity & Forensics Specialist focused on ethical hacking, threat intelligence, and digital forensics. I contribute to GitHub, share insights on Medium, and mentor future security experts to stay ahead of evolving threats.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27238,7 +27220,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 61,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27254,7 +27236,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 71,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27262,38 +27244,40 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 72,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
-                    "        ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 72,
-                        columnNumber: 55
+                        lineNumber: 52,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
                             textAlign: "left",
-                            columns: 2,
+                            display: "grid",
+                            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
                             fontSize: "1.25rem",
-                            margin: "2rem 3rem",
-                            gap: "3rem"
+                            margin: "2rem auto",
+                            padding: "0",
+                            listStyleType: "none",
+                            gap: "1rem"
                         },
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 83,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 73,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 86,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27303,19 +27287,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 87,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 62,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 60,
+        lineNumber: 39,
         columnNumber: 5
     }, undefined);
 };
